@@ -26,9 +26,10 @@ public class SampleFunction7 {
 		System.out.print("Masukkan panjang sisi : ");
 		double input = sc.nextDouble();
 		double a = 5;
-		System.out.println(new SampleFunction7().luasPersegi(input));
+		SampleFunction7 tes = new SampleFunction7();
+		System.out.println(tes.luasPersegi(input));
 		
-		System.out.println(new SampleFunction7().luasPersegi(a));
+		System.out.println(tes.luasPersegi(a));
 		
 	}
 	
