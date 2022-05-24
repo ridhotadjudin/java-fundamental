@@ -8,80 +8,18 @@ public class SampleLooping2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-//		int nilaiAwal, nilaiAkhir;
-//		System.out.print("Masukkan nilai awal  : ");
-//		nilaiAwal = sc.nextInt();
-//		System.out.print("Masukkan nilai akhir : ");
-//		nilaiAkhir = sc.nextInt();
-//		System.out.println("");
-//		for(int i=nilaiAwal;i<=nilaiAkhir;i++){
-//			System.out.println(i);
-//		}
-		
-		///////////
-		
-//		String  motor[] = new String[3];
-//		for(int i=0;i<motor.length;i++) {
-//			int j = i+1;
-//			System.out.print("Masukkan motor ke-"+j+": ");	
-//			motor[i] = sc.nextLine();
-//		}
-//		for(int k=0;k<motor.length;k++) {
-//			int j = k+1;
-//			System.out.println("Cetak motor "+j+" = "+motor[k]);
-//		}
-		
-		///////////
-		
-		//nilai = 70,80,75,90
-//		int  nilai[] = new int[4];
-//		for(int i=0;i<nilai.length;i++) {
-//			int j = i+1;
-//			System.out.print("Masukkan nilai ke-"+j+": ");	
-//			nilai[i] = sc.nextInt();
-//		}
-//		for(int k=0;k<nilai.length;k++) {
-//			int j = k+1;
-//			System.out.println("Cetak nilai ke-"+j+" = "+nilai[k]);
-//		}
-		
-		/////////////
-		
-//		int  nilai[] = new int[4];
-//		System.out.print("Masukkan nilai : ");
-//		for(int i=0;i<nilai.length;i++) {
-//			nilai[i] = sc.nextInt();
-//		}
-//		int sum = 0;
-//		for(int i : nilai) {
-//			System.out.println(i);
-//			sum+=i;
-//		}
-//		System.out.println("Jumlah Nilai = "+sum);
-		
-		//////////////
-		
-//		int nilai1=80, nilai2=80;
-//		System.out.print("Nilai pertama: ");
-//		int nilai1 = sc.nextInt();
-//		System.out.print("Nilai kedua  : ");
-//		int nilai2 = sc.nextInt();
-//		System.out.println("Sum = "+Integer.sum(nilai1, nilai2));
-		
-		//////////////
-		
-//		int n=10;
-//		System.out.print("Nilai awal : ");
-//		int in1 = sc.nextInt();
-//		System.out.print("Nilai akhir : ");
-//		int in2 = sc.nextInt();
-//		for(int i=in1;i<=in2;i++) {
-//			if(i%2==0) {
-//				System.out.print("* ");
-//			}else {
-//				System.out.print(i+" ");
-//			}
-//		}
+		int n=10;
+		System.out.print("Nilai awal : ");
+		int in1 = sc.nextInt();
+		System.out.print("Nilai akhir : ");
+		int in2 = sc.nextInt();
+		for(int i=in1;i<=in2;i++) {
+			if(i%2==0) {
+				System.out.print("* ");
+			}else {
+				System.out.print(i+" ");
+			}
+		}
 		
 		///////////////
 		
