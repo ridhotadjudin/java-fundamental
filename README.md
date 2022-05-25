@@ -15,3 +15,4 @@ List of topics such as:
 10. Array and Number
 11. Multidimensional Array
 12. Method and Modifier
+13. Encapsulation, Inheritance, and Polymorphism
