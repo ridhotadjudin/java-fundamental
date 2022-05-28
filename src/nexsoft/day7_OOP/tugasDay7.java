@@ -49,11 +49,11 @@ import java.util.*;
 //	}
 //}
 
-public class postTest {
+public class tugasDay7 {
 	String berry = "blue";
 
 	public static void main(String[] args) {
-		new postTest().juicy("straw");
+		new tugasDay7().juicy("straw");
 	}
 
 	void juicy(String berry) {
