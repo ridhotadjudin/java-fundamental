@@ -6,12 +6,12 @@ public class AdvancedTest1_4 {
 
 		String input = "Para Juara";
 //		String input = "Java";
-		
+
 		int i = 1;
 		do {
 			i++;
 		} while (i < input.length());
-		
+
 		String upper = input.toUpperCase();
 		String lower = input.toLowerCase();
 		System.out.println(i);
