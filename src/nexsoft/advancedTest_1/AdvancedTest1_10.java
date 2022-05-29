@@ -1,14 +1,21 @@
 package nexsoft.advancedTest_1;
 
+import java.util.Scanner;
+
 public class AdvancedTest1_10 {
 
 	public static void main(String[] args) {
-
-		double input = 2;
-		int loop = 5;
-
-//		double input = 3;
-//		int loop = 6;
+		
+		Scanner sc = new Scanner(System.in);
+		
+//		input 1			input 2
+//		2				3
+//		5				6
+		
+		System.out.print("Masukkan angka kelipatan: ");
+		double input = sc.nextDouble();
+		System.out.print("Ulang sebanyak: ");
+		int loop = sc.nextInt();
 
 		if (input % 2 == 0) {
 			double ulang = input;
