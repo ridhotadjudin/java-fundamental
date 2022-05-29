@@ -1,14 +1,19 @@
 package nexsoft.advancedTest_1;
 
+import java.util.Scanner;
+
 public class AdvancedTest1_8 {
 
 	public static void main(String[] args) {
 
-		int input = 4;
+		Scanner sc = new Scanner(System.in);
 		
-//		int input = 7;
+//		4;
+//		7;
+//		22;
 		
-//		int input = 22;
+		System.out.print("Masukkan angka: ");
+		int input = sc.nextInt();
 
 		if (input % 2 == 0) {
 			System.out.println("Not Weird");

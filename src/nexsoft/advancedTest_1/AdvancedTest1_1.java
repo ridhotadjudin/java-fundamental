@@ -1,22 +1,29 @@
 package nexsoft.advancedTest_1;
 
+import java.util.Scanner;
+
 public class AdvancedTest1_1 {
 
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//input 1			input 2
+		//10				20
+		//20				30
 
-		int in1 = 10;
-		int in2 = 20;
+		System.out.print("Masukkan angka ke-1: ");
+		int in1 = sc.nextInt();
+		System.out.print("Masukkan angka ke-2: ");
+		int in2 = sc.nextInt();
 
-//	    int in1 = 20;
-//	    int in2 = 30;
-
-		//buat yang suka pakai for
+		// buat yang suka pakai for
 //		for (int i = 0; i <= in1; i += 2) {
 //			System.out.print(i + " ");
 //		}
-		
-		//buat yang suka pakai while
-		int i=0;
+
+		// buat yang suka pakai while
+		int i = 0;
 		do {
 			System.out.print(i + " ");
 			i += 2;
