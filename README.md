@@ -16,3 +16,6 @@ List of topics such as:
 11. Multidimensional Array
 12. Method and Modifier
 13. Encapsulation, Inheritance, and Polymorphism
+14. Collections - ArrayList, LinkedList, HashSet, HashMap
+15. Exception Handling - Checked, Unchecked, Error
+16. Lambda Expression
